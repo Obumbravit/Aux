@@ -1,0 +1,25 @@
+---
+name: Aux
+icmd: sbreload
+
+all:
+  targetvers: 13.3
+  archs:
+    - arm64
+    - arm64e
+  cflags: -fobjc-arc
+
+Aux:
+  type: tweak
+  logos_files:
+    - "*.x"
+  frameworks:
+    - MediaRemote
+
+auxprefs:
+  dir: auxprefs
+  type: prefs
+  objc_files:
+    - "*.m"
+  libs:
+    - appearancecell

@@ -1,0 +1,11 @@
+Package: com.obumbravit.aux
+Name: Aux
+Depends: mobilesubstrate, preferenceloader, me.conorthedev.libappearancecell
+Version: B2.0
+Architecture: iphoneos-arm
+Description: Pass The Aux.
+Maintainer: Obumbravit
+Author: Obumbravit
+Section: Tweaks
+Icon: https://raw.githubusercontent.com/Obumbravit/Icons/master/Avx.png
+Depiction: https://Obumbravit.github.io/0SRepo/depictions/index.html?p=com.obumbravit.aux
